@@ -21,7 +21,7 @@ To run the application:
 	cd angular-require-seed
 	node index.js
 
-Access the website at http://localhost:3000/#/ which should show render the main.html partial view.
+After starting the Node JS server open the website at **http://localhost:3000/#/** which should render the main.html partial view.
 
 ## Directory Layout
 
