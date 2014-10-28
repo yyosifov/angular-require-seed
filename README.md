@@ -25,10 +25,10 @@ Access the website at http://localhost:3000/#/ which should show render the main
 
 ## Directory Layout
 
-index.js --> the Node JS server, used only for serving statically the website assets
-app/ --> the web application resides here
-	app.js --> setup of the angular application and modules
-	main.js --> manually bootstrap the angular application, after configuring and loading the extenral modules with require js
-	index.html --> the SPA application's page
-	partials/
-		main.html --> a partial view, rendered in <div ui-view> when accessing /#/ and matching the "/" route defined in the $stateProvider
+    index.js --> the Node JS server, used only for serving statically the website assets
+    app/ --> the web application resides here
+    	app.js --> setup of the angular application and modules
+    	main.js --> manually bootstrap the angular application, after configuring and loading the extenral modules with require js
+    	index.html --> the SPA application's page
+    	partials/
+    		main.html --> a partial view, rendered in <div ui-view> when accessing /#/ and matching the "/" route defined in the $stateProvider
