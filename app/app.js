@@ -3,7 +3,7 @@ define(['angular', 'uiRouter'], function(angular) {
 
     myApp.config(function($stateProvider) {
         $stateProvider.state('base', {
-                url: '/',
+                url: '',
                 templateUrl: 'partials/main.html'
             });
     });

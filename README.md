@@ -21,7 +21,7 @@ To run the application:
 	cd angular-require-seed
 	node index.js
 
-After starting the Node JS server open the website at **http://localhost:3000/#/** which should render the main.html partial view.
+After starting the Node JS server open the website at **http://localhost:3000/** which should render the main.html partial view.
 
 ## Directory Layout
 
@@ -31,4 +31,4 @@ After starting the Node JS server open the website at **http://localhost:3000/#/
     	main.js --> manually bootstrap the angular application, after configuring and loading the extenral modules with require js
     	index.html --> the SPA application's page
     	partials/
-    		main.html --> a partial view, rendered in <div ui-view> when accessing /#/ and matching the "/" route defined in the $stateProvider
+    		main.html --> a partial view, rendered in <div ui-view> when accessing / and matching the "" route defined in the $stateProvider
